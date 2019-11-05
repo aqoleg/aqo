@@ -1,0 +1,11 @@
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+    <defs>
+        <filter id="blur" filterUnits="userSpaceOnUse" x="0" y="0">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="0.001" />
+        </filter>
+    </defs>
+    <g stroke="black" stroke-width="14" filter="url(#blur)">
+        <ellipse cx="50" cy="46" rx="30" ry="35" fill="none" />
+        <path d="M 80 5 v 89" />
+    </g>
+</svg>

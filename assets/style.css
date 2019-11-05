@@ -1,0 +1,71 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+}
+h2, h3, h4 {
+    margin: 32px;
+    word-wrap: break-word;
+}
+p {
+    margin: 16px 32px;
+    word-wrap: break-word;
+}
+button {
+    display: block;
+    padding: 8px;
+    width: 15%;
+    min-width: 120px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: gray;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+a:hover {
+    color: black;
+}
+fieldset {
+    margin: 32px 16px 16px 16px;
+    padding: 16px;
+}
+label {
+    display: block;
+    margin-bottom: 24px;
+    cursor: text;
+}
+input[type="text"] {
+    display: block;
+    width: 380px;
+    margin: 8px 0px;
+    padding: 8px;
+    border: 1px solid black;
+}
+input[type="text"]:hover {
+    outline: 1px solid gray;
+}
+input[type="text"]:focus {
+    outline: 1px solid black;
+}
+fieldset p {
+    margin: 24px 0px 0px 0px;
+}
+.gas {
+    margin: 16px 32px;
+}
+.gas input {
+    width: 100%;
+    cursor: pointer;
+}
